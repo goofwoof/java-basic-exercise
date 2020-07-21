@@ -23,7 +23,7 @@ class GrammarExerciseTest {
         //when
         List<String> result = grammarExercise.findCommonWordsWithSpace(first, second);
         //then
-        assertIterableEquals(result, expected);
+        assertIterableEquals(expected, result);
     }
 
     @Test
